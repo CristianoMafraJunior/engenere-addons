@@ -1,6 +1,6 @@
 # Copyright 2023 Engenere.one
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-from .danfe import danfe
+from ..pynfedanfe import danfe
 from odoo import models
 from odoo.exceptions import UserError
 import pytz
